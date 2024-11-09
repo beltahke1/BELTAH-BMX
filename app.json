@@ -1,5 +1,5 @@
 {
-  "name": "😡 BELTAH-MD 😡",
+  "name": "😡 BELTAH-BMX 😡",
   "description": "This BOT was developed by Beltah.",
   "keywords": [
     "bot",
@@ -8,7 +8,7 @@
     "whatsapp"
   ],
   "logo": "https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg",
-  "repository": "https://github.com/Huaweike/BELTAH-MD",
+  "repository": "https://github.com/beltahke1/BELTAH-BMX",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -19,6 +19,11 @@
     },
     "AUTO_READ_STATUS": {
       "description": "Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
+      "value": "yes",
+      "required": false
+    },
+       "AUTO_LIKE_STATUS": {
+      "description": "Your friend's status will be liked automatically",
       "value": "yes",
       "required": false
     },
