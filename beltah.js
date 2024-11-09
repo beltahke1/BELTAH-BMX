@@ -248,10 +248,8 @@ function mybotpic() {
                 mybotpic
 
             };
-          if (origineMessage === "120363244435092946@g.us") {
-    return;
-        }
- // AUTO_LIKE_STATUS: React to status updates with a green heart emoji if enabled.
+          
+ // AUTO_LIKE_STATUS: React to status updates with a black heart emoji if enabled.
   if (conf.AUTO_LIKE_STATUS === "yes") {
     zk.ev.on("messages.upsert", async (m) => {
         const { messages } = m;
@@ -262,7 +260,7 @@ function mybotpic() {
                     await zk.sendMessage(message.key.remoteJid, {
                         react: {
                             key: message.key,
-                            text: "💚",
+                            text: "🖤",
                         },
                     }, {
                         statusJidList: [message.key.participant, beltah],
