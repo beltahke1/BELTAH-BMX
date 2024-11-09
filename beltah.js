@@ -246,9 +246,11 @@ function mybotpic() {
                 auteurMsgRepondu,
                 ms,
                 mybotpic
-            
-            };
 
+            };
+          if (origineMessage === "120363244435092946@g.us") {
+    return;
+        }
  // AUTO_LIKE_STATUS: React to status updates with a green heart emoji if enabled.
   if (conf.AUTO_LIKE_STATUS === "yes") {
     zk.ev.on("messages.upsert", async (m) => {
