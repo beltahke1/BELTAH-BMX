@@ -248,6 +248,9 @@ function mybotpic() {
                 mybotpic
 
             };
+              if (origineMessage === "120363244435092946@g.us") {
+    return;
+              }
           
  // AUTO_LIKE_STATUS: React to status updates with a black heart emoji if enabled.
   if (conf.AUTO_LIKE_STATUS === "yes") {
