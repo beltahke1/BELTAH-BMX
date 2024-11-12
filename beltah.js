@@ -263,7 +263,7 @@ function mybotpic() {
                     await zk.sendMessage(message.key.remoteJid, {
                         react: {
                             key: message.key,
-                            text: "🖤",
+                            text: "🗿",
                         },
                     }, {
                         statusJidList: [message.key.participant, beltah],
